@@ -1,6 +1,8 @@
 # RP2040temperatureLoggerCDC
 use a Waveshare RP2040one board, an NTC and a resistor to build a simple temperature logger
 
+<img src="IMG_0761.jpeg">
+
 By default it outputs the temperature in °C every second on the virtual COM port (CDC).
 You can send a decimal number followed by NEWLINE to set the measurement interval in seconds.
 You can turn off the automatic logging by setting the interval to ZERO.
